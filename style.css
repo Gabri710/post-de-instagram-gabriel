@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f0f0f0;
+}
+
+header {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.feed {
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.post {
+    background: white;
+    border: 1px solid #ddd;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.post img {
+    width: 100%;
+    display: block;
+}
+
+.post p {
+    padding: 15px;
+    font-size: 15px;
+    color: #333;
+}
